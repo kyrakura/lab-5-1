@@ -13,7 +13,7 @@ namespace lab51test
 		TEST_METHOD(TestMethod1)
 		{
 			double s;
-			s = h(1, 2, 3);
+			s = h(1, 2, 2);
 			Assert::AreEqual(s, 1.2, 0.00001);
 		}
 	};
